@@ -6,15 +6,18 @@ title: 快速跑起一个Springboot工程
 ### 版本选择
 - 详细可以查看[Spring-boot官方文档](https://docs.spring.io/spring-boot/docs/)
 - 查看下目前最新版本的系统要求：[getting-started-system-requirements](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#getting-started-system-requirements)
+
 ```
 Spring Boot 2.1.5.RELEASE requires Java 8 and is compatible up to Java 11 (included). Spring Framework 5.1.7.RELEASE or above is also required.
 
 Explicit build support is provided for the following build tools:
 ```
+
 | Build Tool | Version |
 | :----------: | :------------: |
 | Maven | 3.3+ | 
 | Gradle | 4.4+ | 
+
 版本demo选择了JavaSDK8，Spring2.1.5。自己可以根据工作环境选择，但要考虑兼容。
 
 ### 环境准备
